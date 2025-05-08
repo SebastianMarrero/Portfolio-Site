@@ -1,0 +1,37 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+<div style="padding-top: 45px;">
+<div style="padding-left: 30px; padding-right: 30px;">
+  <h2>Let's get in touch</h2>
+ <p>Email: <span id="email-link"></span></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/sebastianmarrero/" target="_blank">linkedin.com/in/sebastianmarrero</a></p>
+<p>Phone: <span id="phone-link"></span></p>
+</div>
+
+<script>
+  // Email
+  const user = "sebastianmarrero64";
+  const domain = "gmail.com";
+  const email = `${user}@${domain}`;
+  const emailLink = document.createElement("a");
+  emailLink.href = `mailto:${email}`;
+  emailLink.textContent = email;
+  document.getElementById("email-link").appendChild(emailLink);
+
+  // Phone
+  const part1 = "+1";
+  const part2 = "970";
+  const part3 = "250";
+  const part4 = "9541";
+  const phone = `${part1}${part2}${part3}${part4}`;
+  const phoneDisplay = `(${part2}) ${part3}-${part4}`;
+  const phoneLink = document.createElement("a");
+  phoneLink.href = `tel:${phone}`;
+  phoneLink.textContent = phoneDisplay;
+  document.getElementById("phone-link").appendChild(phoneLink);
+</script>
+
+

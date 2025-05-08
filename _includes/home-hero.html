@@ -1,0 +1,50 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+          <div class="hero-content" style="padding: 0 20px;">
+
+          {% if site.title != '' %}
+          <h1 class="text-center">{{site.title}}</h1>
+          {% endif %}
+
+          {% if site.description != '' or site.enable_contact == true %}
+          <p class="text-center">
+            {% if site.description != '' %}
+            {{site.description}}
+            {% endif %}
+
+            {% if site.enable_contact == true %}
+            {% include contact.html %}
+            {% include contact-modal.html %}
+            {% endif %}
+          </p>
+          {% endif %}
+
+          <div class="hero-buttons">
+
+            {% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            {% endif %}
+            {% if site.linkedin_url %}
+              <a href="{{ site.linkedin_url }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
+            {% endif %}
+            {% if site.kaggle_url %}
+              <a href="{{ site.kaggle_url }}"><button class="btn btn-default btn-lg"><i class="fa fa-database fa-lg"></i>Kaggle</button></a>
+            {% endif %}
+            {% if site.tableau_url %}
+              <a href="{{ site.tableau_url }}"><button class="btn btn-default btn-lg"><i class="fa fa-bar-chart fa-lg"></i>Tableau</button></a>
+            {% endif %}
+
+          </div>
+
+          <div class="break" style="margin-top: -90px; margin-bottom: 10px;"></div>
+
+
+
+    </div>
+

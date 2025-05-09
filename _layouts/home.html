@@ -1,3 +1,4 @@
+
 {% include header.html %}
 
     {% include home-hero.html %}
@@ -16,10 +17,7 @@
 
             <div class="break"></div>
 
-            {%
-              comment
-            %}
-            
+            {% comment %}
             {% for post in paginator.posts %}
               <div class="wow fadeIn">
               {% if post.position == "left" %}
@@ -31,37 +29,33 @@
               {% endif %}
               </div>
             {% endfor %}
-    
-            {%
-              endcomment
-            %}
-
+            {% endcomment %}
 
             <!-- Project 1: Fraud Detection (Image Left) -->
             <div class="row" style="margin-top: -20px; margin-left: 0; margin-right: 0;">
               <div class="col-md-6" style="padding-left: 15px; padding-right: 15px;">
-                <img src="/assets/images/Weighted_PR_Curve.png" alt="Fraud Detection PR Curve" class="img-responsive" style="max-height:500px;">
-                <p class="text-muted" style="margin-top: 5px;">Precision-Recall curve for weighted LightGBM and XGBoost models afer tuning scale_pos_weight parameter.</p>
+                <img src="{{ site.baseurl }}/assets/images/Weighted_PR_Curve.png" alt="Fraud Detection PR Curve" class="img-responsive" style="max-height:500px;">
+                <p class="text-muted" style="margin-top: 5px;">Precision-Recall curve for weighted LightGBM and XGBoost models after tuning scale_pos_weight parameter.</p>
               </div>
               <div class="col-md-6 text-right" style="padding-left: 15px; padding-right: 15px;">
                 <h3>Credit Card Fraud Detection</h3>
                 <p>Modeled rare fraud cases using XGBoost, LightGBM, and Logistic Regression with class imbalance strategies and PR AUC benchmarking.</p>
-                <a href="/credit-card-fraud-analysis/" target="_blank">
+                <a href="{{ site.baseurl }}/credit-card-fraud-analysis/" target="_blank">
                   <button class="btn btn-primary">View Project Page</button>
                 </a>
               </div>
             </div>
-            
+
             <div class="row" style="margin-top: 30px; margin-left: 0; margin-right: 0;">
               <div class="col-md-6" style="padding-left: 15px; padding-right: 15px;">
                 <h3>NYC Airbnb Market Analysis</h3>
                 <p>Explored market pricing, availability trends, and revenue dynamics across 40,000+ NYC Airbnb listings using SQL and Python.</p>
-                <a href="/airbnb-analysis/" target="_blank">
+                <a href="{{ site.baseurl }}/airbnb-analysis/" target="_blank">
                   <button class="btn btn-primary">View Project Page</button>
                 </a>
               </div>
               <div class="col-md-6" style="padding-left: 15px; padding-right: 15px;">
-                <img src="/assets/images/AveragePriceGroupedByNeighbourhood_RoomType.png" alt="Average Price by Room Type and Neighbourhood" class="img-responsive" style="max-height:500px; float: right;">
+                <img src="{{ site.baseurl }}/assets/images/AveragePriceGroupedByNeighbourhood_RoomType.png" alt="Average Price by Room Type and Neighbourhood" class="img-responsive" style="max-height:500px; float: right;">
                 <p class="text-right text-muted" style="margin-top: 5px;">Average nightly prices by room type and neighborhood highlight spatial pricing disparities across NYC.</p>
               </div>
             </div>
@@ -71,12 +65,12 @@
               <div class="col-md-6" style="padding-left: 15px; padding-right: 15px;">
                 <h3>Unicorn Start-Up SQL Analysis</h3>
                 <p>Analyzed billion-dollar startups using MySQL and Tableau to explore ROI, industry trends, and investor performance globally.</p>
-                <a href="/unicorn-analysis/" target="_blank">
+                <a href="{{ site.baseurl }}/unicorn-analysis/" target="_blank">
                   <button class="btn btn-primary">View Project Page</button>
                 </a>
               </div>
               <div class="col-md-6" style="padding-left: 15px; padding-right: 15px;">
-                <img src="/assets/images/ROIRatio.sql.png" alt="ROI Ratio Unicorns" class="img-responsive" style="max-height:500px; float: right;">
+                <img src="{{ site.baseurl }}/assets/images/ROIRatio.sql.png" alt="ROI Ratio Unicorns" class="img-responsive" style="max-height:500px; float: right;">
                 <p class="text-right text-muted" style="margin-top: 5px;">ROI ratio chart highlighting capital efficiency among top unicorns.</p>
               </div>
             </div>
@@ -84,18 +78,18 @@
             <!-- Project 4: SaaS Churn (Image Left with alternate visual) -->
             <div class="row" style="margin-top: 30px; margin-left: 0; margin-right: 0;">
               <div class="col-md-6" style="padding-left: 15px; padding-right: 15px;">
-                <img src="/assets/images/LogisticRegressionCoefficients.png" alt="Logistic Regression Coefficients - Variable Impact" class="img-responsive" style="max-height:500px;">
+                <img src="{{ site.baseurl }}/assets/images/LogisticRegressionCoefficients.png" alt="Logistic Regression Coefficients - Variable Impact" class="img-responsive" style="max-height:500px;">
                 <p class="text-muted" style="margin-top: 5px;">Regression coefficient visualization outlines directionality and magnitude of impact that each variable has on customer churn incidence.</p>
               </div>
               <div class="col-md-6 text-right" style="padding-left: 15px; padding-right: 15px;">
                 <h3>SaaS Customer Churn Prediction</h3>
                 <p>Predicted churn using logistic regression and Random Forest Classification Models. Engineered features from customer behavior, tenure, and subscription tier.</p>
-                <a href="/saas-churn-analysis/" target="_blank">
+                <a href="{{ site.baseurl }}/saas-churn-analysis/" target="_blank">
                   <button class="btn btn-primary">View Project Page</button>
                 </a>
               </div>
             </div>
-            
+
             <div style="margin-top: 90px;"></div>
 
             <h3 class="text-center">Writing & Publications</h3>
@@ -118,12 +112,11 @@
 
               <p>I also have an interest in philosophy and critical theory, particularly how structural power dynamics shape economic and social systems. Below is a midterm essay that examines capitalism’s relationship with racism through the lens of contemporary philosopher Nancy Fraser’s thought.</p>
 
-              <a href="/assets/pdfs/Writing Sample.pdf" target="_blank">
+              <a href="{{ site.baseurl }}/assets/pdfs/Writing Sample.pdf" target="_blank">
                 <button class="btn btn-default"><i class="fa fa-file-text-o"></i> Critical Theory Essay (PDF)</button>
               </a>
 
             </div>
-
 
             {% include pagination.html %}
 

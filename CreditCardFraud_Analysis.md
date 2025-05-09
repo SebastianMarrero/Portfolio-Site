@@ -32,20 +32,20 @@ permalink: /credit-card-fraud-analysis/
 <h2>Exploratory Data Analysis</h2>
 
 <h3>Fraud Class Distribution</h3>
-<img src="/assets/images/FraudClassDistribution.png" alt="Fraud Class Distribution">
+<img src="{{ site.baseurl }}/assets/images/FraudClassDistribution.png" alt="Fraud Class Distribution">
 <ul>
   <li>Fraud accounts for only 1.1% of cases — justifying the use of resampling or weighting strategies.</li>
 </ul>
 
 <h3>Numerical Features by Class (KDE)</h3>
-<img src="/assets/images/kde_plot_numerical_features_class_status.png" alt="KDE Plot">
+<img src="{{ site.baseurl }}/assets/images/kde_plot_numerical_features_class_status.png" alt="KDE Plot">
 <ul>
   <li>Key indicators: <code>credit_risk_score</code>, <code>velocity_6h</code>, <code>session_length_in_minutes</code>.</li>
   <li>Even when KDE peaks are similar, subtle separation suggests high feature utility for fraud detection.</li>
 </ul>
 
 <h3>Correlation Heatmap</h3>
-<img src="/assets/images/Correlation_Heatmap.png" alt="Correlation Heatmap">
+<img src="{{ site.baseurl }}/assets/images/Correlation_Heatmap.png" alt="Correlation Heatmap">
 <ul>
   <li>Features like <code>velocity_6h</code>, <code>proposed_credit_limit</code>, and <code>credit_risk_score</code> show moderate correlation with fraud.</li>
 </ul>
@@ -53,31 +53,31 @@ permalink: /credit-card-fraud-analysis/
 <h3>Categorical Feature Insights</h3>
 <p><em>Note: Labels are anonymized to protect privacy but still hold predictive value.</em></p>
 
-<img src="/assets/images/Categorical_feature_distribution_by_device_os.png" alt="Device OS">
+<img src="{{ site.baseurl }}/assets/images/Categorical_feature_distribution_by_device_os.png" alt="Device OS">
 <ul>
   <li>Fraud is prevalent on Windows operating system compared to other OSes.</li>
 </ul>
 
-<img src="/assets/images/Categorical_feature_distribution_by_employment_status.png" alt="Employment Status">
+<img src="{{ site.baseurl }}/assets/images/Categorical_feature_distribution_by_employment_status.png" alt="Employment Status">
 <ul>
   <li>CA employment status has an unusually high number of frauds relative to the other employment categories.</li>
   <li>However, it also contains the largest quantity of non-fraudulent applications, indicating general prevalence in the data.</li>
   <li>No single employment status category shows stark differences in fraud rates, limiting standalone predictive power.</li>
 </ul>
 
-<img src="/assets/images/Categorical_feature_distribution_by_housing_status.png" alt="Housing Status">
+<img src="{{ site.baseurl }}/assets/images/Categorical_feature_distribution_by_housing_status.png" alt="Housing Status">
 <ul>
   <li>Fraud counts are noticeably higher for BA, BB, and BC compared to other housing statuses.</li>
   <li>Fraud is especially rare in BG and BF even though they have significant non-fraud counts.</li>
 </ul>
 
-<img src="/assets/images/Categorical_feature_distribution_by_payment_type.png" alt="Payment Type">
+<img src="{{ site.baseurl }}/assets/images/Categorical_feature_distribution_by_payment_type.png" alt="Payment Type">
 <ul>
   <li>AA, AB, AC, and AD payment types all show strong fraud representation relative to their non-fraud base.</li>
   <li>AE payment type is an outlier with an extremely low fraud rate despite high non-fraud volume.</li>
 </ul>
 
-<img src="/assets/images/Categorical_feature_distribution_by_source.png" alt="Source">
+<img src="{{ site.baseurl }}/assets/images/Categorical_feature_distribution_by_source.png" alt="Source">
 <ul>
   <li>Fraud via Internet source shows a higher total count for both fraudulent and non-fraudulent cases than Teleapp.</li>
   <li>While it's unclear if the internet channel is inherently riskier, it captures the majority of all applications.</li>
@@ -86,7 +86,7 @@ permalink: /credit-card-fraud-analysis/
 <h2>Modeling and Class Imbalance Handling</h2>
 
 <h3>Logistic Regression</h3>
-<img src="/assets/images/Precision-Recall_Curve_LR.png" alt="PR Curve - Logistic Regression">
+<img src="{{ site.baseurl }}/assets/images/Precision-Recall_Curve_LR.png" alt="PR Curve - Logistic Regression">
 <ul>
   <li><strong>Original:</strong> Recall = 0.01, Precision = 0.64, F1 = 0.03</li>
   <li><strong>SMOTE:</strong> Recall = 0.77, Precision = 0.05, F1 = 0.09</li>
@@ -97,7 +97,7 @@ permalink: /credit-card-fraud-analysis/
 </ul>
 
 <h3>XGBoost</h3>
-<img src="/assets/images/Precision-Recall_Curve_XGBoost.png" alt="PR Curve - XGBoost">
+<img src="{{ site.baseurl }}/assets/images/Precision-Recall_Curve_XGBoost.png" alt="PR Curve - XGBoost">
 <ul>
   <li><strong>Original:</strong> Recall = 0.03, Precision = 0.41, F1 = 0.06</li>
   <li><strong>SMOTE:</strong> Recall = 0.90, Precision = 0.02, F1 = 0.03</li>
@@ -109,7 +109,7 @@ permalink: /credit-card-fraud-analysis/
 </ul>
 
 <h3>LightGBM</h3>
-<img src="/assets/images/LightGBM_PR_Curve.png" alt="PR Curve - LightGBM">
+<img src="{{ site.baseurl }}/assets/images/LightGBM_PR_Curve.png" alt="PR Curve - LightGBM">
 <ul>
   <li><strong>Original:</strong> Recall = 0.05, Precision = 0.42, F1 = 0.08</li>
   <li><strong>SMOTE:</strong> Recall = 0.99, Precision = 0.01, F1 = 0.02</li>
@@ -120,7 +120,7 @@ permalink: /credit-card-fraud-analysis/
 </ul>
 
 <h3>Weighted LightGBM and XGBoost</h3>
-<img src="/assets/images/Weighted_PR_Curve.png" alt="Weighted PR Curve - Tree Models">
+<img src="{{ site.baseurl }}/assets/images/Weighted_PR_Curve.png" alt="Weighted PR Curve - Tree Models">
 <ul>
   <li><strong>LightGBM (Weighted):</strong> Recall = 0.79, Precision = 0.05, F1 = 0.09</li>
   <li><strong>XGBoost (Weighted):</strong> Recall = 0.60, Precision = 0.07, F1 = 0.12</li>

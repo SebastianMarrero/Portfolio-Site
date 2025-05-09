@@ -37,7 +37,7 @@ permalink: /unicorn-analysis/
 <h2>Visualizations</h2>
 
 <h3>1. Top Ten Industries by Unicorn Company Count</h3>
-<img src="/assets/images/TopTenIndustries.sql.png" alt="Top Ten Industries">
+<img src="{{ site.baseurl }}/assets/images/TopTenIndustries.sql.png" alt="Top Ten Industries">
 <ul>
   <li>Internet Software and Fintech are the most prolific industries, accounting for the largest shares of unicorn creation.</li>
   <li>Industry dominance shifted over the decade, with new sectors like HealthTech and AI emerging in later years.</li>
@@ -45,7 +45,7 @@ permalink: /unicorn-analysis/
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/TopTenIndustriesbyUnicornCompanyCount/Sheet1" target="_blank">View interactive chart</a></p>
 
 <h3>2. Top Ten Countries by Unicorn Company Count</h3>
-<img src="/assets/images/TopTenCountries.png" alt="Top Ten Countries">
+<img src="{{ site.baseurl }}/assets/images/TopTenCountries.png" alt="Top Ten Countries">
 <ul>
   <li>The United States leads in unicorn company count by a wide margin, followed by China and India.</li>
   <li>Silicon Valley's dominance is reflected in the concentration of unicorns headquartered in San Francisco.</li>
@@ -53,7 +53,7 @@ permalink: /unicorn-analysis/
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/TopTenCountriesbyUnicornCompanyCount/Sheet1" target="_blank">View interactive chart</a></p>
 
 <h3>3. Average Valuation by Year</h3>
-<img src="/assets/images/AverageValuationbyYear.png" alt="Average Valuation by Year">
+<img src="{{ site.baseurl }}/assets/images/AverageValuationbyYear.png" alt="Average Valuation by Year">
 <ul>
   <li>The average unicorn valuation has steadily increased, peaking for companies founded between 2010–2015.</li>
   <li>Valuations reflect broader funding availability and tech sector momentum.</li>
@@ -61,7 +61,7 @@ permalink: /unicorn-analysis/
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/UnicornCompanyAverageValuationbyYear/Sheet1" target="_blank">View interactive chart</a></p>
 
 <h3>4. Return on Investment Ratio (Top 20 Unicorns)</h3>
-<img src="/assets/images/ROIRatio.sql.png" alt="Return on Investment Ratio">
+<img src="{{ site.baseurl }}/assets/images/ROIRatio.sql.png" alt="Return on Investment Ratio">
 <ul>
   <li>Canva, Stripe, and Dunamu top the ROI chart, indicating strong capital efficiency and performance.</li>
   <li>High ROI companies often come from SaaS and fintech sectors with scalable, low-cost structures.</li>
@@ -69,7 +69,7 @@ permalink: /unicorn-analysis/
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/ReturnonInvestmentRatio-Top20UnicornCompanies/Sheet1" target="_blank">View interactive chart</a></p>
 
 <h3>5. Most Successful Investors in Unicorn Companies</h3>
-<img src="/assets/images/MostSuccessfulInvestors.sql.png" alt="Most Successful Investors">
+<img src="{{ site.baseurl }}/assets/images/MostSuccessfulInvestors.sql.png" alt="Most Successful Investors">
 <ul>
   <li>Sequoia, Accel, and Andreessen Horowitz are among the most active unicorn investors.</li>
   <li>Top investors combine volume with high average valuations, indicating strategic selection of ventures.</li>

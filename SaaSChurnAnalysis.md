@@ -31,34 +31,34 @@ permalink: /saas-churn-analysis/
 <h2>Data Visualizations</h2>
 
 <h3>Churn by Subscription Type</h3>
-<img src="/assets/images/ChurnBySubscriptionType.png" alt="Churn by Subscription Type">
+<img src="{{ site.baseurl }}/assets/images/ChurnBySubscriptionType.png" alt="Churn by Subscription Type">
 <ul>
   <li>Basic plan users showed slightly higher churn than Premium/Standard users.</li>
   <li>Upselling strategies to retain lower-tier customers may help reduce churn.</li>
 </ul>
 
 <h3>Churn by Contract Length</h3>
-<img src="/assets/images/ChurnByContractLength.png" alt="Churn by Contract Length">
+<img src="{{ site.baseurl }}/assets/images/ChurnByContractLength.png" alt="Churn by Contract Length">
 <ul>
   <li>Quarterly contracts had highest churn rates.</li>
   <li>Annual plans promote loyalty—an opportunity for longer-term commitment strategies.</li>
 </ul>
 
 <h3>Tenure by Churn Status</h3>
-<img src="/assets/images/TenureBoxplot.png" alt="Tenure by Churn Status">
+<img src="{{ site.baseurl }}/assets/images/TenureBoxplot.png" alt="Tenure by Churn Status">
 <ul>
   <li>Shorter-tenure users were more likely to churn.</li>
   <li>Highlights importance of early-stage engagement and onboarding efforts.</li>
 </ul>
 
 <h3>Support Calls by Churn Status</h3>
-<img src="/assets/images/SupportCallsBoxplot.png" alt="Support Calls by Churn Status">
+<img src="{{ site.baseurl }}/assets/images/SupportCallsBoxplot.png" alt="Support Calls by Churn Status">
 <ul>
   <li>Churners placed more support calls, indicating frustration or dissatisfaction.</li>
 </ul>
 
 <h3>Last Interaction by Churn Status</h3>
-<img src="/assets/images/LastInteractionBoxplot.png" alt="Last Interaction by Churn Status">
+<img src="{{ site.baseurl }}/assets/images/LastInteractionBoxplot.png" alt="Last Interaction by Churn Status">
 <ul>
   <li>Churners tended to show longer periods of inactivity before leaving.</li>
 </ul>
@@ -73,23 +73,23 @@ permalink: /saas-churn-analysis/
 </table>
 
 <h3>ROC Curve Comparison</h3>
-<img src="/assets/images/ROC_LR_RF_Comparison.png" alt="ROC Curve - LR vs RF">
-<img src="/assets/images/ROC_LR_RFT_Comparison.png" alt="ROC Curve - LR vs Tuned RF">
+<img src="{{ site.baseurl }}/assets/images/ROC_LR_RF_Comparison.png" alt="ROC Curve - LR vs RF">
+<img src="{{ site.baseurl }}/assets/images/ROC_LR_RFT_Comparison.png" alt="ROC Curve - LR vs Tuned RF">
 <ul>
   <li>Logistic Regression outperforms both default and tuned Random Forest models.</li>
   <li>Tuning improved RF performance, but Logistic Regression remained most reliable.</li>
 </ul>
 
 <h3>Feature Importance (Random Forest)</h3>
-<img src="/assets/images/FeatureImportance_RF_Orig.png" alt="Feature Importance RF Original">
-<img src="/assets/images/FeatureImportance_RF_Tuned.png" alt="Feature Importance RF Tuned">
+<img src="{{ site.baseurl }}/assets/images/FeatureImportance_RF_Orig.png" alt="Feature Importance RF Original">
+<img src="{{ site.baseurl }}/assets/images/FeatureImportance_RF_Tuned.png" alt="Feature Importance RF Tuned">
 <ul>
   <li>Top drivers: Support Calls, Total Spend, Payment Delay.</li>
   <li>Tuned model emphasized different behavioral features (e.g., Age, Gender).</li>
 </ul>
 
 <h3>Logistic Regression Coefficients</h3>
-<img src="/assets/images/LogisticRegressionCoefficients.png" alt="Logistic Regression Coefficients">
+<img src="{{ site.baseurl }}/assets/images/LogisticRegressionCoefficients.png" alt="Logistic Regression Coefficients">
 <ul>
   <li>Support Calls (+2.20), Payment Delay (+0.89), Inactivity (+0.52) increase churn risk.</li>
   <li>Tenure (–0.13), Total Spend (–1.40), Usage Frequency reduce churn risk.</li>

@@ -37,7 +37,7 @@ permalink: /airbnb-analysis/
 <h2>Visualizations & Insights</h2>
 
 <h3>1. Average Price by Room Type and Neighbourhood</h3>
-<img src="/assets/images/AveragePriceGroupedByNeighbourhood_RoomType.png" alt="Average Price by Room Type and Neighbourhood">
+<img src="{{ site.baseurl }}/assets/images/AveragePriceGroupedByNeighbourhood_RoomType.png" alt="Average Price by Room Type and Neighbourhood">
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/AveragePricebyRoomTypeandNeighbourhood/Sheet1" target="_blank">View interactive chart</a></p>
 <p><em>Note: The unusually high average prices in some neighborhoods are due to extreme outliers. These have not been excluded from the current visualization but are noted for context.</em></p>
 <ul>
@@ -46,7 +46,7 @@ permalink: /airbnb-analysis/
 </ul>
 
 <h3>2. Market Activity Projection (into 2026)</h3>
-<img src="/assets/images/MarketActivityByDate.png" alt="Market Activity by Date">
+<img src="{{ site.baseurl }}/assets/images/MarketActivityByDate.png" alt="Market Activity by Date">
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/AirBNBMarketActivityProjectioninto2026/Sheet1" target="_blank">View interactive chart</a></p>
 <ul>
   <li>Listing activity remains strong throughout the year with predictable dips in winter.</li>
@@ -54,7 +54,7 @@ permalink: /airbnb-analysis/
 </ul>
 
 <h3>3. Average Airbnb Listing Price by Neighbourhood</h3>
-<img src="/assets/images/Price_GroupedbyNeighbourhood.png" alt="Average Price by Neighbourhood">
+<img src="{{ site.baseurl }}/assets/images/Price_GroupedbyNeighbourhood.png" alt="Average Price by Neighbourhood">
 <p><a href="https://public.tableau.com/app/profile/sebastian.marrero/viz/AverageAirBNBListingPricebyNeighbourhood/Sheet1" target="_blank">View interactive chart</a></p>
 <ul>
   <li>Brooklyn offers affordability with high listing volume, while Manhattan commands higher average prices.</li>

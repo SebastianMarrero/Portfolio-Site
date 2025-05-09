@@ -19,7 +19,7 @@ email: 'sebastianmarrero64@gmail.com'
 description: "I’m passionate about analytics and uncovering meaningful insights from data. I enjoy using Python and SQL. Check out my projects and other interests below!"
 author:
   name: Sebastian Marrero
-  avatar: {{ site.baseurl }}/assets/images/seb-profile.jpg
+  avatar: "/Portfolio-Site/assets/images/seb-profile.jpg"
   bio: Economics + Data Science | Instinet | Vanderbilt
 
 github_username: 'SebastianMarrero'

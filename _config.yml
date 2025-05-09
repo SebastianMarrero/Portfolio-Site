@@ -58,9 +58,10 @@ enable_contact: false
 
 enable_nav: true
 nav_item:
-  - { url: {{ site.baseurl }}/about/, text: 'About' }
-  - { url: {{ site.baseurl }}/projects/, text: 'Projects' }
-  - { url: {{ site.baseurl }}/resume/, text: 'Resume' }
-  - { url: {{ site.baseurl }}/contact/, text: 'Contact' }
+  - { url: '/Portfolio-Site/about/', text: 'About' }
+  - { url: '/Portfolio-Site/projects/', text: 'Projects' }
+  - { url: '/Portfolio-Site/resume/', text: 'Resume' }
+  - { url: '/Portfolio-Site/contact/', text: 'Contact' }
+
 
 

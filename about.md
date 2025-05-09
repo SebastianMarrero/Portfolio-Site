@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![My photo](/assets/images/profile.jpg){: class="about-pic" }
+![My photo]({{ site.baseurl }}/assets/images/profile.jpg){: class="about-pic" }
 
 I'm a data-driven professional with experience in financial technology, SaaS, and data analysis. I use SQL, Python, Tableau, and Jupyter to turn messy data into clear insights. Whether it's building dashboards, modeling churn, or analyzing unicorn companies, I'm always pushing to make data actionable and stories compelling.
 
@@ -15,7 +15,6 @@ I'm eager to learn anything that catches my attention and imagination, and have 
 
 ### [Credit Card Fraud Data](https://github.com/SebastianMarrero/Credit-Card-Fraud-Analysis)
 Python-driven modeling of credit card application fraud. Analysis of behavioral, transactional, and device-level signals contributing to fraudulent credit card applications, using a synthetic dataset inspired by real-world financial institutions. Techniques include precision-optimized classification using Logistic Regression, XGBoost, and LightGBM, with class imbalance handled through weighted modeling and evaluation based on precision-recall curves. Key predictive features include velocity metrics, credit risk scores, and device-level indicators, all geared toward improving rare-event fraud detection in highly imbalanced data environments.
-
 
 ### [SaaS Customer Churn Analysis](https://github.com/SebastianMarrero/SAAS-Churn-Analysis-Project)
 Python-driven analysis of SaaS customer churn. Exploration of the factors that influence a customer to forego a subscription-based product, where customer service interactions, total dollars spent, and delay of payment are modeled using logistic regression and random forest classification to predict churn incidence.

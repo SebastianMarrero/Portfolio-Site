@@ -4,13 +4,13 @@ title: Resume
 permalink: /resume/
 ---
 
-[Download My Resume (PDF)](/assets/Marrero, Sebastian Resume DS 05-2025.pdf){: .download-button }
+[Download My Resume (PDF)]({{ site.baseurl }}/assets/Marrero, Sebastian Resume DS 05-2025.pdf){: .download-button }
 
 ---
 
 ## Experience
 
-### <img src="/assets/images/Nomura.png" alt="Nomura Logo" style="height: 80px; width: auto; vertical-align: middle; margin-right: 8px;"> Nomura Securities – Instinet Technology Solutions Analyst
+### <img src="{{ site.baseurl }}/assets/images/Nomura.png" alt="Nomura Logo" style="height: 80px; width: auto; vertical-align: middle; margin-right: 8px;"> Nomura Securities – Instinet Technology Solutions Analyst
 *Jul 2023 – Present · New York, NY*  
 - Leading performance testing sprints with product/dev teams to improve trading platform reliability and UX  
 - Managing onboarding for 40+ electronic market connections, generating $244K+ in recurring revenue 
@@ -19,24 +19,24 @@ permalink: /resume/
 - Analyzing client-reported issues to inform system enhancements and accelerate resolution timelines  
 - Translating technical troubleshooting into Jira action items and Confluence guides for team-wide use  
 
-### <img src="/assets/images/castle.png" alt="Castle Placement Logo" style="height: 60px; width: auto; vertical-align: middle; margin-right: 8px;"> Castle Placement — Analyst (Part-Time)  
+### <img src="{{ site.baseurl }}/assets/images/castle.png" alt="Castle Placement Logo" style="height: 60px; width: auto; vertical-align: middle; margin-right: 8px;"> Castle Placement — Analyst (Part-Time)  
 *Aug 2022 – Dec 2022 · Remote*  
 - Sourced and profiled $812M in Canadian agritech deals for capital raising  
 - Conducted private market research using PitchBook and CapIQ to create investor playbooks for VC and PE clients  
 
-### <img src="/assets/images/Bernstein.png" alt="Bernstein  Logo" style="height: 65px; width: auto; vertical-align: middle; margin-right: 8px;"> Bernstein — Private Wealth Management Intern  
+### <img src="{{ site.baseurl }}/assets/images/Bernstein.png" alt="Bernstein  Logo" style="height: 65px; width: auto; vertical-align: middle; margin-right: 8px;"> Bernstein — Private Wealth Management Intern  
 *Jun 2022 – Aug 2022 · Washington, DC*  
 - Assisted advisors managing $1.6B AUM across 1,500 private clients  
 - Forecasted wealth scenarios based on income, taxes, and expenses for HNW individuals  
 - Conducted investment research and due diligence on private equity, credit, and impact products  
 - Identified strategic partners to assist entrepreneurs during cashflow events in client lifecycle  
 
-### <img src="/assets/images/bioxfel.png" alt="BioXFEL Logo" style="height: 90px; width: auto; vertical-align: middle; margin-right: 8px;"> BioXFEL NSF Science & Technology Center — Research Intern  
+### <img src="{{ site.baseurl }}/assets/images/bioxfel.png" alt="BioXFEL Logo" style="height: 90px; width: auto; vertical-align: middle; margin-right: 8px;"> BioXFEL NSF Science & Technology Center — Research Intern  
 *May 2020 – Jul 2020 · Houston, TX*  
 - Awarded $6,000 grant for 375-hour research on SARS-CoV-2 protein crystallography  
 - Conducted lab experiments with Rice University faculty and presented findings at academic roundtables  
 
-### <img src="/assets/images/nsf.png" alt="NSF Logo" style="height: 80px; width: auto; vertical-align: middle; margin-right: 8px;"> National Science Foundation — LSAMP Research Intern  
+### <img src="{{ site.baseurl }}/assets/images/nsf.png" alt="NSF Logo" style="height: 80px; width: auto; vertical-align: middle; margin-right: 8px;"> National Science Foundation — LSAMP Research Intern  
 *Feb 2020 – May 2020 · Houston, TX*  
 - Produced a funded research proposal on plastic chemical composition and pollution solutions  
 - Led a team project on 3D-printed and laser-fabricated sustainability prototypes  
@@ -45,12 +45,12 @@ permalink: /resume/
 
 ## Education
 
-### <img src="/assets/images/Vanderbilt.png" alt="Vanderbilt" style="height: 90px; width: auto; vertical-align: middle; margin-right: 8px;"> Vanderbilt University — B.A. in Economics  
+### <img src="{{ site.baseurl }}/assets/images/Vanderbilt.png" alt="Vanderbilt" style="height: 90px; width: auto; vertical-align: middle; margin-right: 8px;"> Vanderbilt University — B.A. in Economics  
 *Aug 2021 – May 2023 · Nashville, TN*  
 - Dean’s List: Fall 2021, Fall 2022, Spring 2023  
 - Relevant Coursework: Economics of Risk, Applied Python Programming, Business Development, Negotiation, Financial Management  
 
-### <img src="/assets/images/HCC.png" alt="HCC" style="height: 100px; width: auto; vertical-align: middle; margin-right: 8px;"> Houston Community College — A.S. in Engineering Science  
+### <img src="{{ site.baseurl }}/assets/images/HCC.png" alt="HCC" style="height: 100px; width: auto; vertical-align: middle; margin-right: 8px;"> Houston Community College — A.S. in Engineering Science  
 *Aug 2019 – May 2021 · Katy, TX*  
 - GPA: 3.8 | Dean’s List: Fall 2019, Spring 2020  
 - Relevant Coursework: Calculus I & II, Physics I, Programming in C++, Engineering Management  

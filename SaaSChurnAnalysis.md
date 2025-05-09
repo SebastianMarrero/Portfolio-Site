@@ -3,6 +3,8 @@ layout: page
 title: "SaaS Customer Churn Analysis"
 permalink: /saas-churn-analysis/
 ---
+<p><a class="btn" href="https://github.com/SebastianMarrero/SAAS-Churn-Analysis-Project" target="_blank">View on GitHub</a></p>
+
 
 <p>End-to-end analysis of customer churn using a fictional SaaS dataset. This project combines exploratory data analysis, model development, and interpretability techniques to identify key churn drivers and propose data-backed retention strategies.</p>
 

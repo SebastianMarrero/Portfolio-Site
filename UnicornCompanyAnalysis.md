@@ -3,6 +3,8 @@ layout: page
 title: "Unicorn Company (Start-up) Analysis"
 permalink: /unicorn-analysis/
 ---
+<p><a class="btn" href="https://github.com/SebastianMarrero/Unicorn_SQL_Project" target="_blank">View on GitHub</a></p>
+
 
 <p>This project analyzes global unicorn startups using venture capital, industry, and geographic data. It explores success patterns through SQL-driven metrics like funding concentration, ROI efficiency, and valuation trends. Visual insights are provided using Tableau dashboards, while SQL and Python power the backend data wrangling.</p>
 

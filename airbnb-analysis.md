@@ -3,6 +3,8 @@ layout: page
 title: "Airbnb Market Analysis"
 permalink: /airbnb-analysis/
 ---
+<p><a class="btn" href="https://github.com/SebastianMarrero/NYC_AirBNB_Analysis" target="_blank">View on GitHub</a></p>
+
 
 <p>This project explores short-term rental trends using real data from <a href="http://insideairbnb.com/get-the-data.html" target="_blank">Inside Airbnb</a>. The goal is to uncover pricing patterns, revenue dynamics, guest sentiment, and neighborhood trends to better understand what drives performance on the Airbnb platform.</p>
 

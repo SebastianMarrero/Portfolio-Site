@@ -3,6 +3,8 @@ layout: page
 title: "Credit Card Fraud Detection Analysis"
 permalink: /credit-card-fraud-analysis/
 ---
+<p><a class="btn" href="https://github.com/SebastianMarrero/Credit-Card-Fraud-Analysis" target="_blank">View on GitHub</a></p>
+
 
 <p>Comprehensive classification analysis on the <a href="https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022" target="_blank">Feedzai BAF Dataset Suite</a>, built for detecting fraud in highly imbalanced credit card application data. This project leverages Logistic Regression, XGBoost, and LightGBM with class balancing techniques (SMOTE and <code>scale_pos_weight</code>) to identify fraudulent patterns while minimizing false positives. Visualizations and model performance metrics such as precision, recall, F1, and PR AUC are included throughout.</p>
 

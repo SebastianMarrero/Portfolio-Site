@@ -33,13 +33,16 @@ permalink: /resume/
 
 ### <img src="{{ site.baseurl }}/assets/images/bioxfel.png" alt="BioXFEL Logo" style="height: 90px; width: auto; vertical-align: middle; margin-right: 8px;"> BioXFEL NSF Science & Technology Center — Research Intern  
 *May 2020 – Jul 2020 · Houston, TX*  
-- Awarded $6,000 grant for 375-hour research on SARS-CoV-2 protein crystallography  
-- Conducted lab experiments with Rice University faculty and presented findings at academic roundtables  
+- Composed a research grant proposal resulting in a $6,000 stipend acquisition across 375 contact hours
+- Conducted independent research on SARS-CoV-2 protein chemistry and performed experimental processes of crystallography in collaboration with graduate school students and senior researchers at Rice University
+- Attended and presented in faculty meetings on various research topics pertaining to the objective of the research grant
 
 ### <img src="{{ site.baseurl }}/assets/images/nsf.png" alt="NSF Logo" style="height: 80px; width: auto; vertical-align: middle; margin-right: 8px;"> National Science Foundation — LSAMP Research Intern  
 *Feb 2020 – May 2020 · Houston, TX*  
-- Produced a funded research proposal on plastic chemical composition and pollution solutions  
-- Led a team project on 3D-printed and laser-fabricated sustainability prototypes  
+- Composed a research grant proposal resulting in a $1,250 stipend acquisition across 60 contact hours
+- Collaborated with senior faculty to present research on plastic chemical composition and methods to optimize pollution regulation
+- Operated manufacturing equipment technologies such as 3D-printing and laser engraving to make project deliverables
+- Coordinated a team effort to develop inventive solutions to plastic pollution prevention and reduction
 
 ---
 
@@ -52,7 +55,7 @@ permalink: /resume/
 
 ### <img src="{{ site.baseurl }}/assets/images/HCC.png" alt="HCC" style="height: 100px; width: auto; vertical-align: middle; margin-right: 8px;"> Houston Community College — A.S. in Engineering Science  
 *Aug 2019 – May 2021 · Katy, TX*  
-- GPA: 3.8 | Dean’s List: Fall 2019, Spring 2020  
+- Dean’s List: Fall 2019, Spring 2020  
 - Relevant Coursework: Calculus I & II, Physics I, Programming in C++, Engineering Management  
 
 ---
